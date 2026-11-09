@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+build/
+dist/
+napoleon8_backup/
+*.exe
+*.esf
+*.pack
+*.tmp
+*.pending

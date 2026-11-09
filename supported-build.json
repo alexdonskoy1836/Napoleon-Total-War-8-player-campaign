@@ -1,0 +1,579 @@
+{
+  "version": "0.1.0-experimental",
+  "packPath": "data\\ntw8_campaign.pack",
+  "packSha256": "3c45752ab62ce91e305275ebb9b0d4568f62ea0f531865fa12c0e9873e6427ad",
+  "matchCode": "86B744B1F714",
+  "patchedFiles": [
+    {
+      "path": "Napoleon.exe",
+      "kind": "bytes",
+      "originalSha256": "44880ec1770f600163a336eec83b4366901484c5cceec83dc326e2932f02a054",
+      "patchedSha256": "6a39a0f16df85d4ce492cac4e7b6959c1773ff98a6db278686bdb0c55d379c41",
+      "changes": [
+        {
+          "offset": 470033,
+          "before": 199,
+          "after": 199
+        },
+        {
+          "offset": 470034,
+          "before": 132,
+          "after": 132
+        },
+        {
+          "offset": 470035,
+          "before": 36,
+          "after": 36
+        },
+        {
+          "offset": 470036,
+          "before": 172,
+          "after": 172
+        },
+        {
+          "offset": 470037,
+          "before": 0,
+          "after": 0
+        },
+        {
+          "offset": 470038,
+          "before": 0,
+          "after": 0
+        },
+        {
+          "offset": 470039,
+          "before": 0,
+          "after": 0
+        },
+        {
+          "offset": 470040,
+          "before": 2,
+          "after": 8
+        },
+        {
+          "offset": 470041,
+          "before": 0,
+          "after": 0
+        },
+        {
+          "offset": 470042,
+          "before": 0,
+          "after": 0
+        },
+        {
+          "offset": 470043,
+          "before": 0,
+          "after": 0
+        },
+        {
+          "offset": 685095,
+          "before": 199,
+          "after": 199
+        },
+        {
+          "offset": 685096,
+          "before": 132,
+          "after": 132
+        },
+        {
+          "offset": 685097,
+          "before": 36,
+          "after": 36
+        },
+        {
+          "offset": 685098,
+          "before": 216,
+          "after": 216
+        },
+        {
+          "offset": 685099,
+          "before": 0,
+          "after": 0
+        },
+        {
+          "offset": 685100,
+          "before": 0,
+          "after": 0
+        },
+        {
+          "offset": 685101,
+          "before": 0,
+          "after": 0
+        },
+        {
+          "offset": 685102,
+          "before": 2,
+          "after": 8
+        },
+        {
+          "offset": 685103,
+          "before": 0,
+          "after": 0
+        },
+        {
+          "offset": 685104,
+          "before": 0,
+          "after": 0
+        },
+        {
+          "offset": 685105,
+          "before": 0,
+          "after": 0
+        },
+        {
+          "offset": 686851,
+          "before": 131,
+          "after": 233
+        },
+        {
+          "offset": 686852,
+          "before": 126,
+          "after": 248
+        },
+        {
+          "offset": 686853,
+          "before": 52,
+          "after": 225
+        },
+        {
+          "offset": 686854,
+          "before": 2,
+          "after": 229
+        },
+        {
+          "offset": 686855,
+          "before": 137,
+          "after": 0
+        },
+        {
+          "offset": 686856,
+          "before": 124,
+          "after": 144
+        },
+        {
+          "offset": 686857,
+          "before": 36,
+          "after": 144
+        },
+        {
+          "offset": 686858,
+          "before": 20,
+          "after": 144
+        },
+        {
+          "offset": 686859,
+          "before": 137,
+          "after": 144
+        },
+        {
+          "offset": 686860,
+          "before": 124,
+          "after": 144
+        },
+        {
+          "offset": 686861,
+          "before": 36,
+          "after": 144
+        },
+        {
+          "offset": 686862,
+          "before": 24,
+          "after": 144
+        },
+        {
+          "offset": 686863,
+          "before": 118,
+          "after": 144
+        },
+        {
+          "offset": 686864,
+          "before": 58,
+          "after": 144
+        },
+        {
+          "offset": 692850,
+          "before": 131,
+          "after": 233
+        },
+        {
+          "offset": 692851,
+          "before": 248,
+          "after": 201
+        },
+        {
+          "offset": 692852,
+          "before": 2,
+          "after": 202
+        },
+        {
+          "offset": 692853,
+          "before": 15,
+          "after": 229
+        },
+        {
+          "offset": 692854,
+          "before": 134,
+          "after": 0
+        },
+        {
+          "offset": 692855,
+          "before": 149,
+          "after": 144
+        },
+        {
+          "offset": 692856,
+          "before": 0,
+          "after": 144
+        },
+        {
+          "offset": 692857,
+          "before": 0,
+          "after": 144
+        },
+        {
+          "offset": 692858,
+          "before": 0,
+          "after": 144
+        },
+        {
+          "offset": 15752448,
+          "before": 0,
+          "after": 137
+        },
+        {
+          "offset": 15752449,
+          "before": 0,
+          "after": 124
+        },
+        {
+          "offset": 15752450,
+          "before": 0,
+          "after": 36
+        },
+        {
+          "offset": 15752451,
+          "before": 0,
+          "after": 20
+        },
+        {
+          "offset": 15752452,
+          "before": 0,
+          "after": 137
+        },
+        {
+          "offset": 15752453,
+          "before": 0,
+          "after": 124
+        },
+        {
+          "offset": 15752454,
+          "before": 0,
+          "after": 36
+        },
+        {
+          "offset": 15752455,
+          "before": 0,
+          "after": 24
+        },
+        {
+          "offset": 15752456,
+          "before": 0,
+          "after": 131
+        },
+        {
+          "offset": 15752457,
+          "before": 0,
+          "after": 187
+        },
+        {
+          "offset": 15752458,
+          "before": 0,
+          "after": 180
+        },
+        {
+          "offset": 15752459,
+          "before": 0,
+          "after": 131
+        },
+        {
+          "offset": 15752460,
+          "before": 0,
+          "after": 5
+        },
+        {
+          "offset": 15752461,
+          "before": 0,
+          "after": 0
+        },
+        {
+          "offset": 15752462,
+          "before": 0,
+          "after": 3
+        },
+        {
+          "offset": 15752463,
+          "before": 0,
+          "after": 116
+        },
+        {
+          "offset": 15752464,
+          "before": 0,
+          "after": 11
+        },
+        {
+          "offset": 15752465,
+          "before": 0,
+          "after": 131
+        },
+        {
+          "offset": 15752466,
+          "before": 0,
+          "after": 126
+        },
+        {
+          "offset": 15752467,
+          "before": 0,
+          "after": 52
+        },
+        {
+          "offset": 15752468,
+          "before": 0,
+          "after": 2
+        },
+        {
+          "offset": 15752469,
+          "before": 0,
+          "after": 118
+        },
+        {
+          "offset": 15752470,
+          "before": 0,
+          "after": 5
+        },
+        {
+          "offset": 15752471,
+          "before": 0,
+          "after": 233
+        },
+        {
+          "offset": 15752472,
+          "before": 0,
+          "after": 245
+        },
+        {
+          "offset": 15752473,
+          "before": 0,
+          "after": 29
+        },
+        {
+          "offset": 15752474,
+          "before": 0,
+          "after": 26
+        },
+        {
+          "offset": 15752475,
+          "before": 0,
+          "after": 255
+        },
+        {
+          "offset": 15752476,
+          "before": 0,
+          "after": 233
+        },
+        {
+          "offset": 15752477,
+          "before": 0,
+          "after": 42
+        },
+        {
+          "offset": 15752478,
+          "before": 0,
+          "after": 30
+        },
+        {
+          "offset": 15752479,
+          "before": 0,
+          "after": 26
+        },
+        {
+          "offset": 15752480,
+          "before": 0,
+          "after": 255
+        },
+        {
+          "offset": 15752512,
+          "before": 0,
+          "after": 131
+        },
+        {
+          "offset": 15752513,
+          "before": 0,
+          "after": 190
+        },
+        {
+          "offset": 15752514,
+          "before": 0,
+          "after": 180
+        },
+        {
+          "offset": 15752515,
+          "before": 0,
+          "after": 131
+        },
+        {
+          "offset": 15752516,
+          "before": 0,
+          "after": 5
+        },
+        {
+          "offset": 15752517,
+          "before": 0,
+          "after": 0
+        },
+        {
+          "offset": 15752518,
+          "before": 0,
+          "after": 3
+        },
+        {
+          "offset": 15752519,
+          "before": 0,
+          "after": 116
+        },
+        {
+          "offset": 15752520,
+          "before": 0,
+          "after": 10
+        },
+        {
+          "offset": 15752521,
+          "before": 0,
+          "after": 131
+        },
+        {
+          "offset": 15752522,
+          "before": 0,
+          "after": 248
+        },
+        {
+          "offset": 15752523,
+          "before": 0,
+          "after": 2
+        },
+        {
+          "offset": 15752524,
+          "before": 0,
+          "after": 118
+        },
+        {
+          "offset": 15752525,
+          "before": 0,
+          "after": 5
+        },
+        {
+          "offset": 15752526,
+          "before": 0,
+          "after": 233
+        },
+        {
+          "offset": 15752527,
+          "before": 0,
+          "after": 40
+        },
+        {
+          "offset": 15752528,
+          "before": 0,
+          "after": 53
+        },
+        {
+          "offset": 15752529,
+          "before": 0,
+          "after": 26
+        },
+        {
+          "offset": 15752530,
+          "before": 0,
+          "after": 255
+        },
+        {
+          "offset": 15752531,
+          "before": 0,
+          "after": 233
+        },
+        {
+          "offset": 15752532,
+          "before": 0,
+          "after": 184
+        },
+        {
+          "offset": 15752533,
+          "before": 0,
+          "after": 53
+        },
+        {
+          "offset": 15752534,
+          "before": 0,
+          "after": 26
+        },
+        {
+          "offset": 15752535,
+          "before": 0,
+          "after": 255
+        },
+        {
+          "offset": 576,
+          "before": 252,
+          "after": 0
+        },
+        {
+          "offset": 577,
+          "before": 88,
+          "after": 90
+        },
+        {
+          "offset": 578,
+          "before": 240,
+          "after": 240
+        },
+        {
+          "offset": 579,
+          "before": 0,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "path": "data\\campaigns\\mp_eur_napoleon\\startpos.esf",
+      "kind": "startpos",
+      "originalSha256": "f55b607894cefd86e62dbf150db3111b92443919762b2eb6ea2e854c830071d2",
+      "patchedSha256": "043fda44965eb1a3642a017b298b579161e400690b1f85bbe739f95da24ddf41"
+    }
+  ],
+  "packInputs": [
+    {
+      "id": "lobby",
+      "pack": "data\\data.pack",
+      "entry": "ui\\frontend ui\\mp_grand_campaign",
+      "sha256": "bcf739bb274e786a130d03a59bbad9662c0879bfb8b06101f1ebf2d351e7a17e"
+    },
+    {
+      "id": "main_panel",
+      "pack": "data\\data.pack",
+      "entry": "ui\\frontend ui\\mp_grand_campaign_scripts\\main_panel.luac",
+      "sha256": "11affeab6776dad2e77b17796cbf8c758f26b8c37c05e01dcfcf2bcbc611c017"
+    },
+    {
+      "id": "player_template",
+      "pack": "data\\data.pack",
+      "entry": "ui\\frontend ui\\mp_grand_campaign_scripts\\mp_campaign_player.luac",
+      "sha256": "de0d04d99279c053b143f981ff19e8841c4e39c6b6d1a02313fd640bb9397eab"
+    }
+  ],
+  "payloads": [
+    {
+      "file": "payload\\main_panel.luac",
+      "entry": "ui\\frontend ui\\mp_grand_campaign_scripts\\main_panel.luac",
+      "sha256": "f5cb235d4ded5b89409dfaa79a14b821c1b5579cd39582b4c44b4701164aa469"
+    }
+  ]
+}
