@@ -1,0 +1,58 @@
+{
+  "format_version": 2,
+  "original_sha256": "44880ec1770f600163a336eec83b4366901484c5cceec83dc326e2932f02a054",
+  "patched_sha256": "6a39a0f16df85d4ce492cac4e7b6959c1773ff98a6db278686bdb0c55d379c41",
+  "image_base": 4194304,
+  "patches": [
+    {
+      "name": "New campaign TotalPlayers 2 to 8",
+      "file_offset": 470033,
+      "va": 4667409,
+      "before": "c78424ac00000002000000",
+      "after": "c78424ac00000008000000"
+    },
+    {
+      "name": "Resume campaign TotalPlayers 2 to 8",
+      "file_offset": 685095,
+      "va": 4882471,
+      "before": "c78424d800000002000000",
+      "after": "c78424d800000008000000"
+    },
+    {
+      "name": "Host campaign skips battle-map capacity lookup",
+      "file_offset": 686851,
+      "va": 4884227,
+      "before": "837e3402897c2414897c2418763a",
+      "after": "e9f8e1e500909090909090909090"
+    },
+    {
+      "name": "Client campaign skips battle-map capacity lookup",
+      "file_offset": 692850,
+      "va": 4890226,
+      "before": "83f8020f8695000000",
+      "after": "e9c9cae50090909090"
+    },
+    {
+      "name": "Host conditional code in existing text padding",
+      "file_offset": 15752448,
+      "va": 19949824,
+      "before": "000000000000000000000000000000000000000000000000000000000000000000",
+      "after": "897c2414897c241883bbb483050003740b837e34027605e9f51d1affe92a1e1aff"
+    },
+    {
+      "name": "Client conditional code in existing text padding",
+      "file_offset": 15752512,
+      "va": 19949888,
+      "before": "000000000000000000000000000000000000000000000000",
+      "after": "83beb483050003740a83f8027605e928351affe9b8351aff"
+    },
+    {
+      "name": "Map existing text padding as executable section content",
+      "file_offset": 576,
+      "va": null,
+      "before": "fc58f000",
+      "after": "005af000"
+    }
+  ],
+  "status": "Experimental; static and emulated checks only. Real multiplayer untested."
+}

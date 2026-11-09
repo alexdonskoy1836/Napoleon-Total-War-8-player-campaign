@@ -1,0 +1,89 @@
+{
+  "original_sha256": "F55B607894CEFD86E62DBF150DB3111B92443919762B2EB6EA2E854C830071D2",
+  "patched_sha256": "043FDA44965EB1A3642A017B298B579161E400690B1F85BBE739F95DA24DDF41",
+  "patched_bytes": 32334725,
+  "checks": [
+    "full independent Python ABCE structure traversal",
+    "original five victory table subtrees identical including their original offsets",
+    "eight selectable faction infos",
+    "three playable setup records per faction",
+    "new objectives have expected region counts, modes, home regions and deadlines"
+  ],
+  "objectives": [
+    {
+      "faction": "ottomans",
+      "mode": 1,
+      "regions": 20,
+      "home_regions": [
+        "eur_rumelia"
+      ],
+      "deadline_year": 1812
+    },
+    {
+      "faction": "ottomans",
+      "mode": 4,
+      "regions": 14,
+      "home_regions": [],
+      "deadline_year": 0
+    },
+    {
+      "faction": "ottomans",
+      "mode": 3,
+      "regions": 60,
+      "home_regions": [
+        "eur_rumelia"
+      ],
+      "deadline_year": 1812
+    },
+    {
+      "faction": "spain",
+      "mode": 1,
+      "regions": 20,
+      "home_regions": [
+        "eur_spain"
+      ],
+      "deadline_year": 1812
+    },
+    {
+      "faction": "spain",
+      "mode": 4,
+      "regions": 14,
+      "home_regions": [],
+      "deadline_year": 0
+    },
+    {
+      "faction": "spain",
+      "mode": 3,
+      "regions": 60,
+      "home_regions": [
+        "eur_spain"
+      ],
+      "deadline_year": 1812
+    },
+    {
+      "faction": "sweden",
+      "mode": 1,
+      "regions": 20,
+      "home_regions": [
+        "eur_sweden"
+      ],
+      "deadline_year": 1812
+    },
+    {
+      "faction": "sweden",
+      "mode": 4,
+      "regions": 14,
+      "home_regions": [],
+      "deadline_year": 0
+    },
+    {
+      "faction": "sweden",
+      "mode": 3,
+      "regions": 60,
+      "home_regions": [
+        "eur_sweden"
+      ],
+      "deadline_year": 1812
+    }
+  ]
+}
