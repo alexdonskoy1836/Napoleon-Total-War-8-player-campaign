@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "tests": [
+    "install builds exact files, verifies originals, and preserves unrelated files",
+    "verify and repeated install are idempotent",
+    "uninstall restores byte-identical originals; repeated uninstall is harmless",
+    "reinstall reuses verified retained backups",
+    "uninstall refuses externally changed files without partial restoration",
+    "unsupported executable rejected before installation",
+    "existing destination pack is never overwritten",
+    "corrupt payload rejected before any game replacement",
+    "failed second replacement rolls back executable and leaves no active pack",
+    "installation works after rollback and uninstalls cleanly"
+  ],
+  "source_game_unchanged": true,
+  "fixture": "Disposable copied-game fixture; no source game mutation"
+}

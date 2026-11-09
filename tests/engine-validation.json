@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "descriptor_instruction_cases": 8,
+  "lobby_branch_cases": 96,
+  "patched_sha256": "6a39a0f16df85d4ce492cac4e7b6959c1773ff98a6db278686bdb0c55d379c41",
+  "relocation_overlap": false,
+  "same_file_size_image_size_and_section_count": true,
+  "campaign_mode": 3,
+  "campaign_host_client_skip_battle_lookup": true,
+  "other_modes_preserve_original_branch_results": true,
+  "all_general_registers_and_expected_stack_writes_preserved": true,
+  "runtime_validation": "Not performed; networking, gameplay and real save/reload are untested."
+}
